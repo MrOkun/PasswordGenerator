@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(12, 12, 12);
+    color:rgb(240, 240, 240);
+
+    font-family: 'Ubuntu', sans-serif;
+    
+    text-align: center;
+    font-size: 100%;
+
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    color: #ffffff !important;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 1px hidden;
+    background: white;
+}
+
+p {
+    color: white;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Ubuntu', sans-serif;
+    
+    text-align: auto; 
+
+    font-size: 300%;
+}
+
+.info {
+    color: green;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Ubuntu', sans-serif;
+    
+    text-align: auto; 
+
+    font-size: 300%;
+}
+
+.redraw-button
+{
+    color: black    !important;
+}
+
+#canvas {
+
+    height: 512px;
+    width: 512px;
+    border: 1px solid white;
+}   
+
+.window {
+    padding: 15em 0;
+}
+
+.text
+{
+    font-family: 'Ubuntu', sans-serif;
+    
+    text-align: auto; 
+
+    font-size: 300%;
+}
+
+input[type=text] 
+{
+    font-size: 120%;
+    font-family: 'Ununtu', sans-serif;
+    text-align: center;
+    width: 25em;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number]  
+{
+    font-size: 120%;
+    font-family: 'Ununtu', sans-serif;
+    text-align: center;
+    width: 6em;
+    padding: 20px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

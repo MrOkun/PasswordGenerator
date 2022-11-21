@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MrOkun's Web Net Effect</title>
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body onload="initialize()">
+        <script src="javascript/main.js"></script>
+
+        <div class="window">
+            <label for="password" class="text">Password Generator :</label><br>
+
+            <input type="text" id="password" name="password" required size="32" onclick="CopyToClipboard()">
+
+            <input type="number" id="lenght" name="lenght" value="8" min="1" max="32"><br>
+
+            <label for="copy">Copy to clipboard?</label>
+            <input type="checkbox" id="copy" name="copy" value="none" checked="true"><br>
+            
+            <br><button type="button" onclick="buttonGenerateClick()"><p class="redraw-button">Generate Password</p></button>
+        </div>
+        
+    </body>
+</html>
